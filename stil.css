@@ -26,36 +26,51 @@ nav a{
     color:#ffffff;
     text-decoration:none;
     display:block;
-    padding:0.8rem;
+    padding:0.9rem;
+    
 }
 nav a.aktuell{
     font-weight:bold;
 }
+nav ul li a.WT{
+    font-family: cursive, sans-serif;
+    font-size:1.3rem
+}
 footer{
     background-color:#263238;
+    display: flex; 
+    justify-content: space-between;
 }
 footer p{
     color: white;
 }
 .rounded-box {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 100px;
     border-radius: 20px;
-    margin: 20;
-    margin-top:15%;
+    margin:20px;
+    margin-top:25%;
+    margin-bottom:2%;
   }
-  
-  .rounded-box p {
+.rounded-box2{
+    background-color: #f1f1f1;
+    padding: 100px;
+    border-radius: 20px;
+    margin:20px;
+    margin-top:10%;
+    margin-bottom:25%;
+  }
+.rounded-box p {
     margin: 0;
     text-align:center;
   }
-  main p{
+main p{
     text-align:center;
   }
-  main h1{
+main h1{
     margin-top: 100px;
   }
- main button{
+main button{
     background-color: #263238;
     color: white;
     border: none;
@@ -70,6 +85,52 @@ footer p{
     position: absolute; left: 50%; transform: translateX(-50%);
     margin-top:50px;
     cursor: pointer;
-    };
-
-    
+    }
+footer a{
+    color: white;
+    margin-top: 15px;
+}
+div h2{
+    text-align:center;
+}
+main button{
+    background-color: #263238;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute; left: 50%; transform: translateX(-50%);
+    margin-top:50px;
+    cursor: pointer;
+}
+/*page "Über Uns" CSS Code*/
+section h3{
+    text-align: center;
+    margin-top:10%;
+}
+section a{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    margin-top: 5%;
+}
+div span{
+    color:#188f4d;
+}
+.Blogpost {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    margin:20px;
+    margin-top:5%;
+    margin-bottom:0%;
+}

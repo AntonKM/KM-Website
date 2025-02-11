@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initinal-scale=1">
+    <meta name="description" content="Recherchen, Artikel und Vieles mehr finden sie bei Keks Magazin">
+    <title>Keks Magazin</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="WT">Keks Magazin</a></li>
+                <li><a href="index.html" class="aktuell">Home</a></li>
+                <li><a href="Über.html">Über uns</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img class="Artikelbild" src="placeholder.jpg" alt="Artikelbild">
+            <h2>Neuester Artikel 1</h2>
+            <p>Beschreibung</p>
+            <span><i>11.02.2025</i></span>
+        </div>
+
+    </main>
+    <footer>
+        <p>© Keks Magazin Redaktion 2025</p>
+        <a href="Impressum.html">Impressum</a>
+        <a href="Datenschutz.html">Datenschutz</a>
+        <a href="mailto:kontakt@keks-magazin.de">Kontakt@Keks-Magazin.de</a>
+    <footer>
+</body>
+</html>
+
+<style>
+    body{
+    font-size: 120%;
+    font-family:"Palatino Linotype", sans-serif;
+    line-height:1.4;
+    color:#263238;
+    background-color:#ffffff;
+    margin: 20px;
+}
+p, h1, h2, h3, h4, h5, h6{
+    text-align:center;
+}
+h1{
+    font-size:3rem;
+    font-weight:normal;
+    padding:2rem;
+    margin:0;
+}
+nav{
+    background-color:#263238;
+    border-radius: 20px;
+}
+nav ul{
+    margin:0;
+    display:flex;
+    list-style:none;
+}
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    display:block;
+    padding:0.9rem;
+    
+}
+nav a.aktuell{
+    font-weight:bold;
+}
+nav ul li a.WT{
+    font-family: cursive, sans-serif;
+    font-size:1.3rem
+}
+main h1{
+    margin-top: 100px;
+  }
+footer a{
+    color: white;
+    margin-top: 15px;
+}
+footer {
+    padding: 1em 1em 2em 1em;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.Artikelbild {
+    border-radius: 15px; /* Abgerundete Ecken für das Bild */
+    max-width: 100%; /* Bild responsive machen */
+    height: auto; /* Höhe automatisch anpassen */
+    margin-top: 20px;
+}
+</style>

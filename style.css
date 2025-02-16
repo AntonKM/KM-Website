@@ -31,9 +31,6 @@ nav a{
     padding:0.9rem;
     
 }
-nav a.aktuell{
-    font-weight:bold;
-}
 nav ul li a.WT{
     font-family: cursive, sans-serif;
     font-size:1.3rem

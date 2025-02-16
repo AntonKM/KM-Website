@@ -87,8 +87,9 @@ footer {
     background-color: gray;
     color: rgb(0, 0, 0);
     text-align: center;
+    width: 100%;
 }
-/*page "Über Uns" CSS Code*/
+/*page "about" CSS Code*/
 section h3{
     text-align: center;
     margin-top:10%;
@@ -109,4 +110,4 @@ main {
 h3 {
     margin-top: 15%;
 }
-/*page "Artikel" CSS Code direkt in Seite*/
+/*page "artikel" CSS Code direkt in Seite*/

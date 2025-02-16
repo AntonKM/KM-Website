@@ -85,9 +85,8 @@ main button{
 footer {
     padding: 1em 1em 2em 1em;
     background-color: gray;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
-    width: 100%;
 }
 /*page "about" CSS Code*/
 section h3{
